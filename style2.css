@@ -1,4 +1,4 @@
-/* Aca hago un reset de la page */
+/* Here I do a reset of the page */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ html,
 body {
     height: auto;
 }
-/* Aca le doy el estilo al encabezado(header) */
+/* Here I give the style to the header */
 header {
     padding-top: 30px;
     background-color: #000;
@@ -63,7 +63,7 @@ header p {
     font-size: 10px;
 }
 
-/* Aca le damos el estilo al form */
+/* Here we give the style to the form */
 section {
     padding: 20px;
     max-width: 800px;
@@ -106,7 +106,6 @@ input, textarea, select{
     
 }
 option{
-    /* No se le pude dar ni padding ni margin, usualmente si lo haces es con una libreria */
     background-color: #222;
 
 }
@@ -124,7 +123,6 @@ label{
 }
 
 .checkbox{
-    /* width: auto le dice al navegador que el ancho de un elemento debe ajustarse automáticamente al contenido o al comportamiento por defecto del contenedor. */
     width: auto;
     height: 10px;
 }
@@ -141,13 +139,12 @@ legend{
     color: #777;
 }
 
-
-/* Aca le quitamos el subrayado a los enlaces para darle un mejor estilo al navbar */
+/* Here we remove the underline from the links to give the navbar a better style */
 .nosotros {
     text-decoration: none;
     color: #fff;
 }
-/* Aca le damos el estilo al pie de pagina (footer) */
+/* Here we give the style to the footer */
 .footer {
     margin-top: 20px;
     display: flex;
@@ -167,7 +164,7 @@ legend{
 
 }
 
-/* Responsive para desktop */
+/* Responsive for desktop */
 @media (min-width:1024px){
     .first img{
         width: auto;
@@ -186,7 +183,7 @@ legend{
 
 
 
-/* Responsive para tablet */
+/* Responsive for tablet */
 @media (max-width:768px) {
 
     .header-text,
@@ -237,7 +234,7 @@ legend{
 
 }
 
-/* Responsive para mobil */
+/* Responsive for mobil */
 @media (max-width:440px) {
 
     .header-text,
