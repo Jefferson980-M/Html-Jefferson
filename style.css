@@ -1,3 +1,4 @@
+/* Aca hago un reset de la page */
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +12,8 @@ body {
     height: auto;
 }
 
+
+/* Aca le doy el estilo al encabezado(header) */
 header {
     padding-top: 30px;
     background-color: #000;
@@ -64,6 +67,8 @@ header p {
     font-size: 10px;
 }
 
+/* Aca le doy el esilo al main de la page donde definimos como va estra dividida con un display:grid */
+
 .content {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -110,12 +115,14 @@ header p {
     text-align: justify;
 }
 
-
+/* Aca le quitamos el subrayado a los enlaces para darle un mejor estilo al navbar */
 .nosotros {
     text-decoration: none;
     color: #fff;
 }
 
+
+/* Aca le damos el estilo al pie de pagina (footer) */
 .footer {
     margin-top: 20px;
     display: flex;
@@ -136,10 +143,13 @@ header p {
 
 }
 
+/* Aqui hacemos que cuando el cursor pase por encima de un texto, cambie de color */
 p:hover{
     color:  rgb(141, 26, 26);
 }
 
+
+/* Responsive para desktop */
 @media (min-width:1024px){
     .first img{
         width: 100%;
@@ -153,7 +163,7 @@ p:hover{
 
 
 
-
+/* Responsive para tablet */
 @media (max-width:768px) {
 
     .header-text,
@@ -221,7 +231,7 @@ p:hover{
     }
 }
 
-
+/* Responsive para mobil */
 @media (max-width:440px) {
 
     .header-text,

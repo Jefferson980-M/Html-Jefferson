@@ -1,3 +1,4 @@
+/* Aca hago un reset de la page */
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@ html,
 body {
     height: auto;
 }
-
+/* Aca le doy el estilo al encabezado(header) */
 header {
     padding-top: 30px;
     background-color: #000;
@@ -62,7 +63,7 @@ header p {
     font-size: 10px;
 }
 
-
+/* Aca le damos el estilo al form */
 section {
     padding: 20px;
     max-width: 800px;
@@ -141,15 +142,12 @@ legend{
 }
 
 
-
-
-
-
+/* Aca le quitamos el subrayado a los enlaces para darle un mejor estilo al navbar */
 .nosotros {
     text-decoration: none;
     color: #fff;
 }
-
+/* Aca le damos el estilo al pie de pagina (footer) */
 .footer {
     margin-top: 20px;
     display: flex;
@@ -169,7 +167,7 @@ legend{
 
 }
 
-
+/* Responsive para desktop */
 @media (min-width:1024px){
     .first img{
         width: auto;
@@ -188,7 +186,7 @@ legend{
 
 
 
-
+/* Responsive para tablet */
 @media (max-width:768px) {
 
     .header-text,
@@ -239,7 +237,7 @@ legend{
 
 }
 
-
+/* Responsive para mobil */
 @media (max-width:440px) {
 
     .header-text,
