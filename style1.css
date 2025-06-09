@@ -1,4 +1,4 @@
-/* Aca hago un reset de la page */
+/* Here I do a reset of the page */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ html,
 body {
     height: auto;
 }
-/* Aca le doy el estilo al encabezado(header) */
+/* Here I give the style to the header */
 header {
     padding-top: 30px;
     background-color: #000;
@@ -63,7 +63,7 @@ header p {
     font-size: 10px;
 }
 
-/* Aca le doy el esilo al main de la page donde definimos como va estra dividida con un display:grid */
+/* Here I give the style to the main page where we define how it will be divided with a display: grid */
 .content {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -153,12 +153,12 @@ input {
 }
 
 
-/* Aca le quitamos el subrayado a los enlaces para darle un mejor estilo al navbar */
+/* Here we remove the underline from the links to give the navbar a better style */
 .nosotros {
     text-decoration: none;
     color: #fff;
 }
-/* Aca le damos el estilo al pie de pagina (footer) */
+/* Here we give the style to the footer */
 .footer {
     margin-top: 20px;
     display: flex;
@@ -177,14 +177,13 @@ input {
     font-size: 20px;
 
 }
-
-/* Aqui hacemos que cuando el cursor pase por encima de un texto, cambie de color */
+/* Here we make it so that when the cursor passes over a text, it changes color */
 p:hover{
     color:  rgb(141, 26, 26);
 }
 
 
-/* Responsive para desktop */
+/* Responsive for desktop */
 @media (min-width:1024px){
     .first img{
         width: auto;
@@ -203,7 +202,7 @@ p:hover{
 
 
 
-/* Responsive para tablet */
+/* Responsive for tablet */
 @media (max-width:768px) {
 
     .header-text,
@@ -285,7 +284,7 @@ p:hover{
     }
 }
 
-/* Responsive para mobil */
+/* Responsive for mobile */
 @media (max-width:440px) {
     body{
         width: auto;
